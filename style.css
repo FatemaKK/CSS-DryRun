@@ -1,15 +1,35 @@
+* {
+  color: rgb(87, 87, 89);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+img {
+  opacity: 0.4;
+}
+
+img:hover {
+  opacity: 0.8;
+}
+
 .container {
-    display: flex;
-    margin: auto;
-    padding: 8px;
+  margin: auto;
+  padding: 8px;
+}
+
+h1 {
+  text-align: center;
 }
 
 .paragraphs {
-    margin: auto;
-    padding: 4px;
-    display: inline-block;
+  margin: auto;
+  padding: 4px;
 }
 
 footer {
-    padding: 4px;
+  display: flex;
+  justify-content: space-evenly;
+  height: 4rem;
+  right: 0;
+  bottom: 0;
+  left: 0;
 }
